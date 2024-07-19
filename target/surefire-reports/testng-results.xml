@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T16:10:32 IST" name="Suite" finished-at="2024-07-19T16:13:49 IST" duration-ms="196992">
+    <groups>
+    </groups>
+    <test started-at="2024-07-19T16:10:32 IST" name="Test" finished-at="2024-07-19T16:13:49 IST" duration-ms="196992">
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC04">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC04@3527942a]" started-at="2024-07-19T16:12:56 IST" name="launch" finished-at="2024-07-19T16:12:57 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Manage_Proile()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC04@3527942a]" started-at="2024-07-19T16:12:57 IST" name="Manage_Proile" finished-at="2024-07-19T16:13:15 IST" duration-ms="17418" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":60,"value":"[object HTMLInputElement] has no size and location"}
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [804d198f1e66c5034becd974d19fc5b8, actions {actions=[org.openqa.selenium.interactions.Sequence@102ecc22]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62231/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 804d198f1e66c5034becd974d19fc5b8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":60,"value":"[object HTMLInputElement] has no size and location"}
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [804d198f1e66c5034becd974d19fc5b8, actions {actions=[org.openqa.selenium.interactions.Sequence@102ecc22]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62231/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 804d198f1e66c5034becd974d19fc5b8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+at amazonApp.ProjectOneWithTenTestCasesNew.Profile_page.Save_button(Profile_page.java:62)
+at amazonApp.ProjectOneWithTenTestCasesNew.TC04.Manage_Proile(TC04.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Proile -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC04@3527942a]" started-at="2024-07-19T16:13:15 IST" name="quit" finished-at="2024-07-19T16:13:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC04 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC03">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC03@942a29c]" started-at="2024-07-19T16:13:15 IST" name="launch" finished-at="2024-07-19T16:13:18 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Loginwith_InvalidCreds()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC03@942a29c]" started-at="2024-07-19T16:13:18 IST" name="Loginwith_InvalidCreds" finished-at="2024-07-19T16:13:25 IST" duration-ms="7082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwith_InvalidCreds -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC03@942a29c]" started-at="2024-07-19T16:13:25 IST" name="quit" finished-at="2024-07-19T16:13:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC03 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC06">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC06@242b836]" started-at="2024-07-19T16:12:24 IST" name="launch" finished-at="2024-07-19T16:12:26 IST" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Filtertheproduct()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC06@242b836]" started-at="2024-07-19T16:12:26 IST" name="Filtertheproduct" finished-at="2024-07-19T16:12:40 IST" duration-ms="13972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filtertheproduct -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC06@242b836]" started-at="2024-07-19T16:12:40 IST" name="quit" finished-at="2024-07-19T16:12:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC06 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC05">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC05@3f6f6701]" started-at="2024-07-19T16:12:40 IST" name="launch" finished-at="2024-07-19T16:12:43 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Search_product()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC05@3f6f6701]" started-at="2024-07-19T16:12:43 IST" name="Search_product" finished-at="2024-07-19T16:12:56 IST" duration-ms="13050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_product -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC05@3f6f6701]" started-at="2024-07-19T16:12:56 IST" name="quit" finished-at="2024-07-19T16:12:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC05 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC08">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC08@771a660]" started-at="2024-07-19T16:11:16 IST" name="launch" finished-at="2024-07-19T16:11:19 IST" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Sorting_product_details()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC08@771a660]" started-at="2024-07-19T16:11:19 IST" name="Sorting_product_details" finished-at="2024-07-19T16:12:00 IST" duration-ms="41814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sorting_product_details -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC08@771a660]" started-at="2024-07-19T16:12:00 IST" name="quit" finished-at="2024-07-19T16:12:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC08 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC07">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC07@2d52216b]" started-at="2024-07-19T16:12:00 IST" name="launch" finished-at="2024-07-19T16:12:03 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Verify_product_details()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC07@2d52216b]" started-at="2024-07-19T16:12:03 IST" name="Verify_product_details" finished-at="2024-07-19T16:12:24 IST" duration-ms="21232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_product_details -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC07@2d52216b]" started-at="2024-07-19T16:12:24 IST" name="quit" finished-at="2024-07-19T16:12:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC07 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC09">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC09@73e9cf30]" started-at="2024-07-19T16:10:56 IST" name="launch" finished-at="2024-07-19T16:10:58 IST" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="addToCart()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC09@73e9cf30]" started-at="2024-07-19T16:10:58 IST" name="addToCart" finished-at="2024-07-19T16:11:16 IST" duration-ms="17513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC09@73e9cf30]" started-at="2024-07-19T16:11:16 IST" name="quit" finished-at="2024-07-19T16:11:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC09 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC10">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC10@4803b726]" started-at="2024-07-19T16:10:32 IST" name="launch" finished-at="2024-07-19T16:10:35 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="UpdateCart()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC10@4803b726]" started-at="2024-07-19T16:10:35 IST" name="UpdateCart" finished-at="2024-07-19T16:10:56 IST" duration-ms="20383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateCart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC10@4803b726]" started-at="2024-07-19T16:10:56 IST" name="quit" finished-at="2024-07-19T16:10:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC10 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC02">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC02@1ed6388a]" started-at="2024-07-19T16:13:25 IST" name="launch" finished-at="2024-07-19T16:13:27 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Loginwith_validCreds()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC02@1ed6388a]" started-at="2024-07-19T16:13:27 IST" name="Loginwith_validCreds" finished-at="2024-07-19T16:13:37 IST" duration-ms="9827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwith_validCreds -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC02@1ed6388a]" started-at="2024-07-19T16:13:37 IST" name="quit" finished-at="2024-07-19T16:13:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC02 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC01">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC01@5a45133e]" started-at="2024-07-19T16:13:37 IST" name="launch" finished-at="2024-07-19T16:13:40 IST" duration-ms="2605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Registration()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC01@5a45133e]" started-at="2024-07-19T16:13:40 IST" name="Registration" finished-at="2024-07-19T16:13:49 IST" duration-ms="9463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC01@5a45133e]" started-at="2024-07-19T16:13:49 IST" name="quit" finished-at="2024-07-19T16:13:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC10"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC09"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC08"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC07"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC06"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC05"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC04"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC03"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC02"/>
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

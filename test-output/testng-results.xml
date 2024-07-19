@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T14:26:33 IST" name="Suite" finished-at="2024-07-19T14:30:11 IST" duration-ms="218057">
+    <groups>
+    </groups>
+    <test started-at="2024-07-19T14:26:33 IST" name="Test" finished-at="2024-07-19T14:30:11 IST" duration-ms="218057">
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC04">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC04@6bd61f98]" started-at="2024-07-19T14:29:13 IST" name="launch" finished-at="2024-07-19T14:29:16 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Manage_Proile()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC04@6bd61f98]" started-at="2024-07-19T14:29:16 IST" name="Manage_Proile" finished-at="2024-07-19T14:29:32 IST" duration-ms="16364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Proile -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC04@6bd61f98]" started-at="2024-07-19T14:29:32 IST" name="quit" finished-at="2024-07-19T14:29:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC04 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC03">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC03@b9b00e0]" started-at="2024-07-19T14:29:32 IST" name="launch" finished-at="2024-07-19T14:29:36 IST" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Loginwith_InvalidCreds()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC03@b9b00e0]" started-at="2024-07-19T14:29:36 IST" name="Loginwith_InvalidCreds" finished-at="2024-07-19T14:29:44 IST" duration-ms="7285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwith_InvalidCreds -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC03@b9b00e0]" started-at="2024-07-19T14:29:44 IST" name="quit" finished-at="2024-07-19T14:29:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC03 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC06">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC06@59505b48]" started-at="2024-07-19T14:28:34 IST" name="launch" finished-at="2024-07-19T14:28:39 IST" duration-ms="4321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Filtertheproduct()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC06@59505b48]" started-at="2024-07-19T14:28:39 IST" name="Filtertheproduct" finished-at="2024-07-19T14:28:54 IST" duration-ms="15059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filtertheproduct -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC06@59505b48]" started-at="2024-07-19T14:28:54 IST" name="quit" finished-at="2024-07-19T14:28:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC06 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC05">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC05@4efac082]" started-at="2024-07-19T14:28:54 IST" name="launch" finished-at="2024-07-19T14:28:55 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Search_product()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC05@4efac082]" started-at="2024-07-19T14:28:55 IST" name="Search_product" finished-at="2024-07-19T14:29:13 IST" duration-ms="17554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_product -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC05@4efac082]" started-at="2024-07-19T14:29:13 IST" name="quit" finished-at="2024-07-19T14:29:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC05 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC08">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC08@2d710f1a]" started-at="2024-07-19T14:27:21 IST" name="launch" finished-at="2024-07-19T14:27:24 IST" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Sorting_product_details()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC08@2d710f1a]" started-at="2024-07-19T14:27:24 IST" name="Sorting_product_details" finished-at="2024-07-19T14:28:09 IST" duration-ms="45690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sorting_product_details -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC08@2d710f1a]" started-at="2024-07-19T14:28:09 IST" name="quit" finished-at="2024-07-19T14:28:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC08 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC07">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC07@29215f06]" started-at="2024-07-19T14:28:09 IST" name="launch" finished-at="2024-07-19T14:28:12 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Verify_product_details()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC07@29215f06]" started-at="2024-07-19T14:28:12 IST" name="Verify_product_details" finished-at="2024-07-19T14:28:34 IST" duration-ms="22247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_product_details -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC07@29215f06]" started-at="2024-07-19T14:28:34 IST" name="quit" finished-at="2024-07-19T14:28:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC07 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC09">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC09@d9345cd]" started-at="2024-07-19T14:26:59 IST" name="launch" finished-at="2024-07-19T14:27:02 IST" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="addToCart()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC09@d9345cd]" started-at="2024-07-19T14:27:02 IST" name="addToCart" finished-at="2024-07-19T14:27:21 IST" duration-ms="19082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC09@d9345cd]" started-at="2024-07-19T14:27:21 IST" name="quit" finished-at="2024-07-19T14:27:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC09 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC10">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC10@6fd83fc1]" started-at="2024-07-19T14:26:33 IST" name="launch" finished-at="2024-07-19T14:26:36 IST" duration-ms="3359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="UpdateCart()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC10@6fd83fc1]" started-at="2024-07-19T14:26:36 IST" name="UpdateCart" finished-at="2024-07-19T14:26:59 IST" duration-ms="22323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateCart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC10@6fd83fc1]" started-at="2024-07-19T14:26:59 IST" name="quit" finished-at="2024-07-19T14:26:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC10 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC02">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC02@506ae4d4]" started-at="2024-07-19T14:29:44 IST" name="launch" finished-at="2024-07-19T14:29:47 IST" duration-ms="3334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Loginwith_validCreds()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC02@506ae4d4]" started-at="2024-07-19T14:29:47 IST" name="Loginwith_validCreds" finished-at="2024-07-19T14:29:58 IST" duration-ms="11111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwith_validCreds -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC02@506ae4d4]" started-at="2024-07-19T14:29:58 IST" name="quit" finished-at="2024-07-19T14:29:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC02 -->
+      <class name="amazonApp.ProjectOneWithTenTestCasesNew.TC01">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC01@7d4f9aae]" started-at="2024-07-19T14:29:58 IST" name="launch" finished-at="2024-07-19T14:30:03 IST" duration-ms="4493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Registration()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC01@7d4f9aae]" started-at="2024-07-19T14:30:03 IST" name="Registration" finished-at="2024-07-19T14:30:11 IST" duration-ms="8607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazonApp.ProjectOneWithTenTestCasesNew.TC01@7d4f9aae]" started-at="2024-07-19T14:30:11 IST" name="quit" finished-at="2024-07-19T14:30:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazonApp.ProjectOneWithTenTestCasesNew.TC01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
